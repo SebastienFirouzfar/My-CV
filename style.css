@@ -54,7 +54,7 @@ ul li{
 }
 
 /*****competence*****/
-.boxComptétence{
+.boxComptetence{
  grid-row-start: 6 ;
  grid-row-end: 7 ;
  grid-column-start: 1 ;
@@ -66,3 +66,23 @@ ul li{
  box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
 }
 
+/*****competence*****/
+.boxExperience{
+ grid-row-start: 6 ;
+ grid-row-end: 7 ;
+ grid-column-start: 3 ;
+ grid-column-end: 4;
+ margin-top: 25%;
+ border-style: solid;
+ padding-right: 10px ;
+ box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+}
+
+.textExperience{
+    margin-left: 15px;
+}
+
+div section .textSeb{
+    text-align: center;
+    padding: 10px;
+}
