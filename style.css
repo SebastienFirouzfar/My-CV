@@ -1,1 +1,24 @@
-style.css
+/****div info***/
+.contenaire{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-column-gap: 10px;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+   
+}
+
+.box2{
+    grid-column-start: 3;
+    grid-column-end: 4;  
+    text-align: center;
+}
+
+.textSeb{
+    
+}
