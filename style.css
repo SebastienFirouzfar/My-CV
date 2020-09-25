@@ -1,4 +1,8 @@
+body{
+ background-color: #55251D;
+}
 /****div info***/
+/****column = colonne  row = ligne***/
 .contenaire{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -13,12 +17,52 @@
    
 }
 
+img{
+    height: 180%;
+    width: 80%;
+    border-radius: 90em;
+    box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+}
+
 .box2{
     grid-column-start: 3;
-    grid-column-end: 4;  
+    grid-column-end: span 4;  
     text-align: center;
 }
 
 .textSeb{
     font-family: 'Baloo Tammudu 2', cursive;
+    color: white;
 }
+
+h2{
+    color: white;  
+}
+
+ul li{
+    color: white;
+}
+
+/*****objective*****/
+.boxObjectifs{ 
+ grid-row-start: 3 ;
+ grid-row-end: 4 ;
+ grid-column-start:span 3 ;
+ text-align: center;
+ padding: 10px;
+ margin-top: 5%;
+}
+
+/*****competence*****/
+.boxComptétence{
+ grid-row-start: 6 ;
+ grid-row-end: 7 ;
+ grid-column-start: 1 ;
+ grid-column-end: 2; 
+ padding: 25px;
+ margin-top: 25%;
+ margin-left: 10%;
+ border-style: solid;
+ box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+}
+
