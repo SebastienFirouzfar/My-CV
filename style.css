@@ -1,5 +1,5 @@
 body{
- background-color: #55251D;
+ background-color: #080708;
 }
 /****div info***/
 /****column = colonne  row = ligne***/
@@ -28,6 +28,8 @@ img{
     grid-column-start: 3;
     grid-column-end: span 4;  
     text-align: center;
+    border-style: outset;
+    box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
 }
 
 .textSeb{
@@ -41,6 +43,7 @@ h2{
 
 ul li{
     color: white;
+    
 }
 
 /*****objective*****/
@@ -62,7 +65,7 @@ ul li{
  padding: 25px;
  margin-top: 25%;
  margin-left: 10%;
- border-style: solid;
+ border-style: outset;
  box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
 }
 
@@ -73,7 +76,7 @@ ul li{
  grid-column-start: 3 ;
  grid-column-end: 4;
  margin-top: 25%;
- border-style: solid;
+ border-style: outset;
  padding-right: 10px ;
  box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
 }
@@ -86,3 +89,44 @@ div section .textSeb{
     text-align: center;
     padding: 10px;
 }
+
+/******Skills****/
+.boxSkillsWeb{
+    grid-row-start: 8 ;
+    grid-row-end: 9 ;
+    grid-column-start: 1 ;
+    grid-column-end: 2;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-style: outset;
+    box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+}
+
+div h2{
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 10px;
+    text-shadow: 2px 2px 4px white;
+}
+
+/******SkillsOop****/
+.boxSkillsOop{
+    grid-row-start: 8 ;
+    grid-row-end: 9 ;
+    grid-column-start: 3 ;
+    grid-column-end: 4;
+    margin-top: 10%;
+    border-style: outset;
+    box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+}
+
+.skillsDeveloppement{
+    grid-row-start: 7 ;
+    grid-row-end: 8 ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    border-style: outset;
+    box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+    margin-top: 15%;
+}
+
