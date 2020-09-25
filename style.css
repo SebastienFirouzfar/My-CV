@@ -130,3 +130,15 @@ div h2{
     margin-top: 15%;
 }
 
+.site50cent{
+    grid-row-start: 8 ;
+    grid-row-end: 9 ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 10%;
+    border-style: outset;
+    box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+}
+
