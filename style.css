@@ -39,6 +39,10 @@ body{
 
 h2{
     color: white;  
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding: 10px;
+    text-shadow: 2px 2px 4px white;
+    text-align: center;
 }
 
 ul li{
@@ -73,8 +77,8 @@ ul li{
 .boxExperience{
  grid-row-start: 6 ;
  grid-row-end: 7 ;
- grid-column-start: 3 ;
- grid-column-end: 4;
+ grid-column-start: 2 ;
+ grid-column-end: 3;
  margin-top: 25%;
  border-style: outset;
  padding-right: 10px ;
@@ -90,7 +94,7 @@ div section .textSeb{
     padding: 10px;
 }
 
-/******Skills****/
+/******Skills OLD CODE
 .boxSkillsWeb{
     grid-row-start: 8 ;
     grid-row-end: 9 ;
@@ -100,14 +104,9 @@ div section .textSeb{
     margin-left: 10%;
     border-style: outset;
     box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
-}
+} ****/
 
-div h2{
-    font-family: 'Baloo Tammudu 2', cursive;
-    padding: 10px;
-    text-shadow: 2px 2px 4px white;
-    text-align: center;
-}
+
 
 .imgHtml{
     height: 30%;
@@ -162,7 +161,7 @@ div h2{
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
 }
-/******SkillsOop****/
+/******SkillsOop OLD CODE
 .boxSkillsOop{
     grid-row-start: 8 ;
     grid-row-end: 9 ;
@@ -172,22 +171,27 @@ div h2{
     border-style: outset;
     box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
 }
+****/
 
 .skillsDeveloppement{
-    grid-row-start: 7 ;
-    grid-row-end: 8 ;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-row-start: 6 ;
+    grid-row-end: 7 ;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: 25%;
     text-align: center;
     border-style: outset;
     box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
-    margin-top: 15%;
 }
 
-.site50cent{
-    grid-row-start: 8 ;
-    grid-row-end: 9 ;
-    grid-column-start: 2;
+div li{
+    text-align: left;
+}
+
+.portfolio{
+    grid-row-start: 7 ;
+    grid-row-end: 8 ;
+    grid-column-start: 1;
     grid-column-end: 3;
     text-align: center;
     color: blanchedalmond;
@@ -197,8 +201,8 @@ div h2{
 }
 
 .Loisir{
-    grid-row: 10/11 ;
-    grid-column: 2/3 ;
+    grid-row: 7/9 ;
+    grid-column: 3/4 ;
     border-style: solid;
     border-style: outset;
     box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
