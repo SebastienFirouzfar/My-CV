@@ -210,15 +210,20 @@ div li{
 }
 
 
-  
-  @media only screen and (max-width: 700px) {
-    .boxSkillsWeb {
-        margin-top: 50%;
+@media screen and (max-width:680px){
+    .portfolio{
+        margin-bottom: 0px;
+        grid-row: 9/10;
+        
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .boxSkillsOop {
-      margin-top: 60%;
+    
+    .skillsDeveloppement{
+        width: 100%;
+        grid-row: 7/8;
+        grid-column: 1/2;
     }
-  }
+
+    .boxExperience{
+        
+    }
+}
