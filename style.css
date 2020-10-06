@@ -210,7 +210,7 @@ div li{
 }
 
 
-@media all and (max-width:680px){
+@media screen and (max-width:680px){
     .textSeb{
         font-family: 'Baloo Tammudu 2', cursive;
         color: white;
