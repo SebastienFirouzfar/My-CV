@@ -210,10 +210,25 @@ div li{
 }
 
 
-@media screen and (max-width:680px){
+@media all and (max-width:680px){
+    .textSeb{
+        font-family: 'Baloo Tammudu 2', cursive;
+        color: white;
+        text-align: center;
+    }
+
+    h2{
+        color: white;  
+        font-family: 'Baloo Tammudu 2', cursive;
+        padding: 10px;
+        text-shadow: 2px 2px 4px white;
+        text-align: center;
+    }
+    
     .portfolio{
         margin-bottom: 0px;
         grid-row: 9/10;
+        grid-column: 1/4;
         
     }
     
@@ -223,7 +238,13 @@ div li{
         grid-column: 1/2;
     }
 
+    .Loisir{
+        margin-top: 25%;
+        grid-column: 2/4;
+    }
+
     .boxExperience{
-        
+        grid-column: 3/4;
+        margin-top: 34%;
     }
 }
