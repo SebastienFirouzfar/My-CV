@@ -161,6 +161,17 @@ div section .textSeb{
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
 }
+
+.imgBT{
+    height: 30%;
+    width: 30%; 
+}
+
+.imgBT:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
 /******SkillsOop OLD CODE
 .boxSkillsOop{
     grid-row-start: 8 ;
@@ -210,7 +221,7 @@ div li{
 }
 
 
-@media screen and (max-width:680px){
+@media screen and (max-width:980px){
     .textSeb{
         font-family: 'Baloo Tammudu 2', cursive;
         color: white;
@@ -241,6 +252,7 @@ div li{
     .Loisir{
         margin-top: 25%;
         grid-column: 2/4;
+        
     }
 
     .boxExperience{
