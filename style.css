@@ -240,7 +240,11 @@ div li{
         margin-top: 25px;
     }
 
-    body{
+    h2{
+        font-family: Arial; 
+    }
+
+    .textSeb{
         font-family: Arial;
     }
   /**  .textSeb{
