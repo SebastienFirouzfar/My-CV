@@ -222,7 +222,25 @@ div li{
 
 
 @media screen and (max-width:980px){
-    .textSeb{
+    .contenaire{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        grid-gap: 10px;
+    }
+
+    .photoSeb{
+        height: 80%;
+        width: 80%;
+        border-radius: 90px;
+        box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
+    }
+
+    .box2{
+        margin-top: 25px;
+    }
+
+  /**  .textSeb{
         font-family: 'Baloo Tammudu 2', cursive;
         color: white;
         text-align: center;
@@ -267,4 +285,5 @@ div li{
     .boxObjectifs{
         margin-top: 10%;
     }
+    **/
 }
