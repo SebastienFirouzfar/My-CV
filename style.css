@@ -211,6 +211,8 @@ div li{
     box-shadow: 8px 8px 12px rgb(167, 157, 157),  -8px -8px 12px rgb(167, 157, 157);
 }
 
+.portfolio .individuelle{margin-right: 60%;}
+
 .Loisir{
     grid-row: 7/9 ;
     grid-column: 3/4 ;
@@ -220,7 +222,6 @@ div li{
     margin-top: 7%;
 }
 
-/**Mobile**/
 @media screen and (max-width:980px){
     .contenaire{
         display: flex;
